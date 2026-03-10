@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 30px;
+    margin-bottom: 200px;
+    font-family: 'akatab', sans-serif;
 }
 
 .header {
@@ -44,11 +46,13 @@ body {
     height: 48px;
     padding: 0 15px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .Search button {
     text-align: center;
     margin: 0;
+    border-radius: 10px;
 }
 
 .logo {
@@ -57,6 +61,16 @@ body {
     align-items: center;
     gap: 30px;
     font-size: 30px;
+}
+
+.logo button {
+    border: none;
+    background-color: white;
+}
+
+.login-button {
+    border: none;
+    background-color: white;
 }
 
 .filter button{
@@ -82,9 +96,8 @@ body {
     align-items: center;
     border: 1px solid black;
     padding: 0;
-    margin: 0;
+    margin: 1   0px 0;
     width: 1000px;
-    margin-left: 20px;
 }
 
 .box img{
@@ -129,7 +142,8 @@ body {
 .information {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 5px;
+    justify-content: center;
 }
 
 .icons{
@@ -141,8 +155,9 @@ body {
 
 .star {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     gap: 50px;
+    text-align: start;
 }
 
 .star a{
@@ -160,8 +175,13 @@ body {
 }
 
 .description {
+    word-break: break-word;
+}
+
+.description-border {
     border: 1px solid black;
     padding: 20px;
+    width: 700px;
 }
 
 footer{

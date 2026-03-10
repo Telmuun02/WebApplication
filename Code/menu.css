@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 30px;
+    font-family: 'akatab', sans-serif;
+    margin-bottom: 300px;
 }
 
 .header {
@@ -16,6 +18,7 @@ body {
     align-items: center;
     border: 1px solid black ;
 }
+
 
 .header button {
     width: 50px;
@@ -38,17 +41,24 @@ body {
     flex: 1;
 }
 
+.category img{
+    width: 30px;
+    height: 30px;
+}
+
 .Search input {
     flex: 1;
     max-width: 500px;
     height: 48px;
     padding: 0 15px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .Search button {
     text-align: center;
     margin: 0;
+    border-radius: 10px;
 }
 
 .logo {
@@ -57,6 +67,11 @@ body {
     align-items: center;
     gap: 30px;
     font-size: 30px;
+}
+
+.logo button {
+    border: none;
+    background-color: white;
 }
 
 .body{
@@ -77,11 +92,17 @@ body {
     height: 100vh;
 }
 
-.category button {
+.category-button {
     width: 300px;
     height: 100px;
     background-color: white;
     font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}   
+
+.category-button:hover{
+    background-color: rgb(240, 240, 240);
 }
 
 footer{
@@ -96,23 +117,29 @@ footer{
     font-size: 25px !important;
 }
 
-.menuItems {
+.menuItems {    
     position: absolute;
     top: 0;
     left: 300px;
     bottom: 0;
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    margin: 100px;
-    column-gap: 200px;
-    row-gap: 100px;
+    margin: 50px;
+    gap: 100px;
 }
 
 .menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
     padding: 10px;
-    border: 3px solid black;
-    height: 300px
+    border: 1px solid black;
+    width: 350px;
+    height:450px;
+}
+
+.menuItem img{
+    width: 100%;
 }
 
 .price-name {
@@ -131,8 +158,4 @@ footer{
 .price{
     color: red;
     font-weight: bold;
-}
-
-.menuItem img{
-    width: 200px;
 }

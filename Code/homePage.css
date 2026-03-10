@@ -3,6 +3,7 @@ body{
     padding: 0;
     color: black;
     font-size: 40px;
+    font-family: "Kanit", sans-serif;
 }
 
 .mainContainer{
@@ -25,6 +26,7 @@ body{
     color: white;
     text-align: center ;
     width: 500px;
+    font-style: italic;
 }
 
 .mainText a{
@@ -33,6 +35,7 @@ body{
     border-radius: 50px;
     height: 100px;
     width: 250px;
+    padding: 20px;
 }
 
 .middleSection, .middleSection2 {
@@ -43,8 +46,10 @@ body{
 }
 
 .middleSection img{
-    width: 828px;
-    height: 654px;
+    width: 35vw;
+    height: 27.5vw;
+    min-width: 500px;
+    min-height: 393px;
 }
 
 .middleSection2 img{
@@ -61,6 +66,7 @@ body{
     max-width: 500px;
     min-width: 250px;
     align-items: center;
+    font-family: "akatab", sans-serif;
 }
 
 .text h2 {
